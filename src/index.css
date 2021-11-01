@@ -1,1 +1,47 @@
+/* Login Page */
 
+#login-page{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url('./bg-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#login-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 36px;
+    padding-bottom: 66px;
+    width: 420px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 22px;
+}
+
+.login-btn{
+    cursor: pointer;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.login-btn:hover{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.2);
+}
+
+.google{
+    background-color: #4285f4;
+    color: white;
+}
+
+.facebook{
+    background-color: #3b5998;
+}
